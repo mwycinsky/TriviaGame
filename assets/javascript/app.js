@@ -187,7 +187,8 @@ var trivCalcs = {
             resultsHTML();
         }
         else if (this.correct < 5 && this.correct > 0) {
-            panel.html("<h2>Time is up. You really need to work on your nerd game.</h2>");  
+            panel.html("<h2>Time is up.</h2>");  
+            panel.html("<h2>You really need to work on your nerd game.</h2>");  
             resultsHTML();
         }
         else {
