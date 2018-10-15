@@ -65,7 +65,7 @@ var trivCalcs = {
   start: function() {
     timer = setInterval(trivCalcs.countdown, 1000);
 
-    $("#hidden-container").prepend("<h2>Time Left: <span id='counter-number'>120</span> Seconds</h2>");
+    $("#timercontainer").prepend("<h2>Time Left: <span id='counter-number'>120</span> Seconds</h2>");
     
     $("#start-button").remove();
 
@@ -77,7 +77,7 @@ var trivCalcs = {
       }
     }
 
-    panel.append("<button id='done-button'>DONE</button>");
+    panel.append('<button id="done-button">DONE</button>');
   },
 
 
@@ -166,7 +166,7 @@ var trivCalcs = {
     clearInterval(timer);
 
 
-    $("#hidden-container").remove();
+    $("h2").remove();
 
 
     // UPDATE HTML WITH RESULTS
@@ -187,13 +187,11 @@ var trivCalcs = {
             resultsHTML();
         }
         else if (this.correct < 5 && this.correct > 0) {
-            panel.html("<h2>Time is up.</h2>");  
-            panel.html("<h2>You really need to work on your nerd game.</h2>");  
+            panel.html("<h2>Time is up. You really need to work on your nerd game.</h2>");  
             resultsHTML();
         }
         else {
-            panel.html("<h2>Time is up. You didn't get one right.  Not one.</h2>");
-            panel.html("<h2>Just get outta here.  I can't even look at you right now.</h2>");
+            panel.html("<h2>Time is up. You didn't get one right.  Not one. Communist!!!</h2>");
             resultsHTML();
         }
 

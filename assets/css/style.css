@@ -23,10 +23,10 @@ body {
     margin-bottom: 40px;
 }
 
-#hidden-container {
+/* #hidden-container {
   position: relative;
   margin-top: 40px;
-}
+} */
 
 button {
   display: block;
