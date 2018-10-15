@@ -66,7 +66,7 @@ var trivCalcs = {
     timer = setInterval(trivCalcs.countdown, 1000);
 
     $("#hidden-container").prepend("<h2>Time Left: <span id='counter-number'>120</span> Seconds</h2>");
-
+    
     $("#start-button").remove();
 
     for (var i = 0; i < questions.length; i++) {

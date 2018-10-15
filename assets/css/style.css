@@ -1,6 +1,3 @@
-/* font-family: 'Anton', sans-serif;
-font-family: 'Titillium Web', sans-serif; */
-
 body {
     height: 100%;
   text-align: center;
@@ -29,7 +26,6 @@ body {
 #hidden-container {
   position: relative;
   margin-top: 40px;
-  /* top: 20%; */
 }
 
 button {
@@ -77,18 +73,18 @@ h3 {
 }
 
 #ironman {
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    height: 475px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  height: 475px;
     
 }
 
 #deadpool {
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    height: 275px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 275px;
     
 }
 
