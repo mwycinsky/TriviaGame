@@ -76,14 +76,19 @@ h3 {
   font-size: 25px;
 }
 
+#ironman {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    height: 475px;
+    
+}
 
 #deadpool {
     position: fixed;
     left: 0px;
     bottom: 0px;
     height: 275px;
-    /* width: 300px;
-    padding: 10px; */
     
 }
 
